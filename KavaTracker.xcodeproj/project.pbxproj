@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF101D3121B37CB200421CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF101D3021B37CB200421CBC /* AppDelegate.swift */; };
+		DF101D3321B37CB200421CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF101D3221B37CB200421CBC /* ViewController.swift */; };
+		DF101D3621B37CB200421CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF101D3421B37CB200421CBC /* Main.storyboard */; };
+		DF101D3821B37CB500421CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF101D3721B37CB500421CBC /* Assets.xcassets */; };
+		DF101D3B21B37CB500421CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF101D3921B37CB500421CBC /* LaunchScreen.storyboard */; };
+		DF101D4621B37CB500421CBC /* KavaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF101D4521B37CB500421CBC /* KavaTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF101D4221B37CB500421CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF101D2521B37CB200421CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF101D2C21B37CB200421CBC;
+			remoteInfo = KavaTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF101D2D21B37CB200421CBC /* KavaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KavaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF101D3021B37CB200421CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF101D3221B37CB200421CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF101D3521B37CB200421CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF101D3721B37CB500421CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF101D3A21B37CB500421CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF101D3C21B37CB500421CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF101D4121B37CB500421CBC /* KavaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KavaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF101D4521B37CB500421CBC /* KavaTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavaTrackerTests.swift; sourceTree = "<group>"; };
+		DF101D4721B37CB500421CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF101D2A21B37CB200421CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF101D3E21B37CB500421CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF101D2421B37CB200421CBC = {
+			isa = PBXGroup;
+			children = (
+				DF101D2F21B37CB200421CBC /* KavaTracker */,
+				DF101D4421B37CB500421CBC /* KavaTrackerTests */,
+				DF101D2E21B37CB200421CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF101D2E21B37CB200421CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF101D2D21B37CB200421CBC /* KavaTracker.app */,
+				DF101D4121B37CB500421CBC /* KavaTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF101D2F21B37CB200421CBC /* KavaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DF101D3021B37CB200421CBC /* AppDelegate.swift */,
+				DF101D3221B37CB200421CBC /* ViewController.swift */,
+				DF101D3421B37CB200421CBC /* Main.storyboard */,
+				DF101D3721B37CB500421CBC /* Assets.xcassets */,
+				DF101D3921B37CB500421CBC /* LaunchScreen.storyboard */,
+				DF101D3C21B37CB500421CBC /* Info.plist */,
+			);
+			path = KavaTracker;
+			sourceTree = "<group>";
+		};
+		DF101D4421B37CB500421CBC /* KavaTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF101D4521B37CB500421CBC /* KavaTrackerTests.swift */,
+				DF101D4721B37CB500421CBC /* Info.plist */,
+			);
+			path = KavaTrackerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF101D2C21B37CB200421CBC /* KavaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF101D4A21B37CB500421CBC /* Build configuration list for PBXNativeTarget "KavaTracker" */;
+			buildPhases = (
+				DF101D2921B37CB200421CBC /* Sources */,
+				DF101D2A21B37CB200421CBC /* Frameworks */,
+				DF101D2B21B37CB200421CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KavaTracker;
+			productName = KavaTracker;
+			productReference = DF101D2D21B37CB200421CBC /* KavaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF101D4021B37CB500421CBC /* KavaTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF101D4D21B37CB500421CBC /* Build configuration list for PBXNativeTarget "KavaTrackerTests" */;
+			buildPhases = (
+				DF101D3D21B37CB500421CBC /* Sources */,
+				DF101D3E21B37CB500421CBC /* Frameworks */,
+				DF101D3F21B37CB500421CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF101D4321B37CB500421CBC /* PBXTargetDependency */,
+			);
+			name = KavaTrackerTests;
+			productName = KavaTrackerTests;
+			productReference = DF101D4121B37CB500421CBC /* KavaTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF101D2521B37CB200421CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Brandon Berger";
+				TargetAttributes = {
+					DF101D2C21B37CB200421CBC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DF101D4021B37CB500421CBC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF101D2C21B37CB200421CBC;
+					};
+				};
+			};
+			buildConfigurationList = DF101D2821B37CB200421CBC /* Build configuration list for PBXProject "KavaTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF101D2421B37CB200421CBC;
+			productRefGroup = DF101D2E21B37CB200421CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF101D2C21B37CB200421CBC /* KavaTracker */,
+				DF101D4021B37CB500421CBC /* KavaTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF101D2B21B37CB200421CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF101D3B21B37CB500421CBC /* LaunchScreen.storyboard in Resources */,
+				DF101D3821B37CB500421CBC /* Assets.xcassets in Resources */,
+				DF101D3621B37CB200421CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF101D3F21B37CB500421CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF101D2921B37CB200421CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF101D3321B37CB200421CBC /* ViewController.swift in Sources */,
+				DF101D3121B37CB200421CBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF101D3D21B37CB500421CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF101D4621B37CB500421CBC /* KavaTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF101D4321B37CB500421CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF101D2C21B37CB200421CBC /* KavaTracker */;
+			targetProxy = DF101D4221B37CB500421CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF101D3421B37CB200421CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF101D3521B37CB200421CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF101D3921B37CB500421CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF101D3A21B37CB500421CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF101D4821B37CB500421CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF101D4921B37CB500421CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF101D4B21B37CB500421CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KavaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KavaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF101D4C21B37CB500421CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KavaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KavaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF101D4E21B37CB500421CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KavaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KavaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KavaTracker.app/KavaTracker";
+			};
+			name = Debug;
+		};
+		DF101D4F21B37CB500421CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KavaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KavaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KavaTracker.app/KavaTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF101D2821B37CB200421CBC /* Build configuration list for PBXProject "KavaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF101D4821B37CB500421CBC /* Debug */,
+				DF101D4921B37CB500421CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF101D4A21B37CB500421CBC /* Build configuration list for PBXNativeTarget "KavaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF101D4B21B37CB500421CBC /* Debug */,
+				DF101D4C21B37CB500421CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF101D4D21B37CB500421CBC /* Build configuration list for PBXNativeTarget "KavaTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF101D4E21B37CB500421CBC /* Debug */,
+				DF101D4F21B37CB500421CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF101D2521B37CB200421CBC /* Project object */;
+}
